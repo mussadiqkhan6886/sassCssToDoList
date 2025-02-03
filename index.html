@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List (sass) </title>
+    <link rel="stylesheet" href="dist/css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="/js/main.js" type="module"></script>
+</head>
+<body>
+    <main class="container">
+        <section class="inputField">
+            <form id="form">
+                <label for="input">Add New Item to List</label>
+                <input type="text" id="input" placeholder="Add Task" aria-label="Enter New Task" autocomplete="off" tabindex="0">
+                <button id="button" class="button" aria-label="Add New Task To List" tabindex="0" title="Add new item">+</button>
+            </form>
+        </section>
+        <section class="listContainer">
+            <div class="listTitle">
+                <h1>To Do List</h1>
+                <button id="clearButton" class="button" aria-label="Clear List" tabindex="0" title="Clear list">Clear</button>
+            </div>
+            <hr>
+            <div id="listItems">
+                <!-- <div class="item">
+                    <input type="checkbox" id="1" tabindex="0">
+                    <label for="1">eat</label>
+                </div>
+                <div class="item">
+                    <input type="checkbox" id="2" tabindex="0">
+                    <label for="2">sleep</label>
+                </div> -->
+            </div>
+        </section>
+    </main>
+</body>
+</html>
